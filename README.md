@@ -44,9 +44,11 @@ During sleep hours it switches to a darker nighttime scene. During wake hours it
 ## Screenshots
 
 Day Mode
-```md
-![Day Mode](screenshots/Day Mode.png)
-```
+<img width="1666" height="927" alt="Day Mode" src="https://github.com/user-attachments/assets/f575225e-ffab-4d5b-b921-74c1bc3b11ae" />
+
+Night Mode
+<img width="1666" height="927" alt="Night Mode" src="https://github.com/user-attachments/assets/7ad94068-7bec-45e5-98ea-93f2fafaebe3" />
+
 
 ## Install
 
@@ -163,19 +165,6 @@ You can still use YAML whenever you want, but routine customization should be po
 | `shell_night_start` | No | `#ecf2ff` | Outer clock shell highlight in night mode |
 | `shell_night_end` | No | `#99afff` | Outer clock shell base in night mode |
 
-## Publish Checklist
-
-Before publishing to GitHub, it is worth doing these last few things:
-
-- add screenshots under `docs/screenshots/`
-- create a repository description
-- tag the first release as `v1.0.0`
-- add release notes
-- submit it to HACS as a custom frontend repository
-
-## Notes
-
-- This is a Lovelace frontend card, not a Home Assistant integration.
 - The media tile appears only when the configured media player is actively playing.
 - Burn-in protection is intentionally subtle so the card still feels stable on a bedroom display.
 
