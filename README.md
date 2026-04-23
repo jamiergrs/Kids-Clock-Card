@@ -43,26 +43,7 @@ During sleep hours it switches to a darker nighttime scene. During wake hours it
 
 ## Screenshots
 
-Before publishing to GitHub, it is worth adding a few screenshots to show the card in real use. A good set would be:
-
-- day mode full-panel view
-- night mode full-panel view
-- media player tile enabled
-- Home Assistant visual editor view
-
-If you want to add them later, a simple structure like this works well:
-
-```text
-docs/
-  screenshots/
-    day-mode.png
-    night-mode.png
-    media-tile.png
-    editor.png
-```
-
-Then you can drop them into this section with markdown like:
-
+Day Mode
 ```md
 ![Day Mode](docs/screenshots/day-mode.png)
 ![Night Mode](docs/screenshots/night-mode.png)
@@ -72,13 +53,10 @@ Then you can drop them into this section with markdown like:
 
 ### HACS
 
-1. Push this repository to GitHub.
-2. In HACS, add it as a custom frontend repository.
-3. Install `Kids Wake Up Clock Card`.
-4. Refresh your browser.
-5. Add the card to a dashboard.
-
-This repository already includes `hacs.json`, so HACS can install the frontend asset directly.
+1. In HACS, add it as a custom frontend repository.
+2. Install `Kids Wake Up Clock Card`.
+3. Refresh your browser.
+4. Add the card to a dashboard.
 
 ### Manual
 
