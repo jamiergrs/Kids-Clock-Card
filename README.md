@@ -45,8 +45,7 @@ During sleep hours it switches to a darker nighttime scene. During wake hours it
 
 Day Mode
 ```md
-![Day Mode](docs/screenshots/day-mode.png)
-![Night Mode](docs/screenshots/night-mode.png)
+![Day Mode](screenshots/Day Mode.png)
 ```
 
 ## Install
